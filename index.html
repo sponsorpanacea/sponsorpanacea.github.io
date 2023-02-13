@@ -32,6 +32,12 @@
       font-size: 4rem;
   }
 }
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .textx {
+      font-size: 2rem;
+  }
+}
   .panacea {
     font-family: 'Righteous', cursive;
     background: linear-gradient(
@@ -189,7 +195,7 @@ background-size: cover;
   </div>
     <div class="col-5 offset-1">
       <span class="h5 text-secondary fw-lighter">The numbers</span>
-      <h2 class="display-huge fw-bolder" data-aos="zoom-in-left">Our Audience</h2>
+      <h2 class="display-huge fw-bolder textx" data-aos="zoom-in-left">Our Audience</h2>
   <p class="h4 fw-lighter text-secondary">
       and your opportunities for publicity
   </p>
